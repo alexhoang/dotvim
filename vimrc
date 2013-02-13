@@ -16,3 +16,4 @@ if has("autocmd")
 endif
 
 map <F2> :NERDTreeToggle<CR>
+let g:nerdtree_tabs_open_on_console_startup=1
