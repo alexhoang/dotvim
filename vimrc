@@ -9,7 +9,9 @@ set copyindent
 set showmatch
 set history=1000
 set undolevels=1000
+set nopaste
 syntax on
+imap ii <Esc>
 
 if has("autocmd")
     filetype plugin indent on
