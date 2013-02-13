@@ -1,3 +1,5 @@
+call pathogen#infect()
+call pathogen#helptags()
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -7,7 +9,8 @@ set copyindent
 set showmatch
 set history=1000
 set undolevels=1000
-call pathogen#infect()
-call pathogen#helptags()
 syntax on
-filetype plugin indent on
+
+if has("autocmd")
+    filetype plugin indent on
+endif
