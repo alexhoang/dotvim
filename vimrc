@@ -1,3 +1,7 @@
+let g:pathogen_disabled = []
+call add(g:pathogen_disabled, 'nerdtree')
+call add(g:pathogen_disabled, 'nerdtreetabs')
+
 call pathogen#infect()
 call pathogen#helptags()
 set tabstop=4
