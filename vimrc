@@ -14,6 +14,7 @@ set showmatch
 set history=1000
 set undolevels=1000
 set nopaste
+set switchbuf+=usetab,newtab
 syntax on
 imap ii <Esc>
 
