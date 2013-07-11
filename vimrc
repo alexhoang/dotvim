@@ -15,7 +15,10 @@ set history=1000
 set undolevels=1000
 set nopaste
 set switchbuf+=usetab,newtab
-set ignorecase smartcase
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
 syntax on
 imap ii <Esc>
 
