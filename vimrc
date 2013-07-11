@@ -102,3 +102,18 @@ if exists("+showtabline")
     set tabline=%!MyTabLine()
 endif
 
+"Mappings
+
+" nmap <silent> <c-k> :wincmd k<CR>                                                                                                                       
+" nmap <silent> <c-j> :wincmd j<CR>                                                                                                                       
+" nmap <silent> <c-h> :wincmd h<CR>                                                                                                                       
+" nnoremap <silent> <c-h> <c-w>h 
+" nmap <silent> <c-l> :wincmd l<CR>
+
+nnoremap <C-j> <C-W><C-J>
+nnoremap <C-k> <C-W><C-K>
+nnoremap <C-l> <C-W><C-L>
+nnoremap <C-h> <C-W><C-H>
+
+
+
