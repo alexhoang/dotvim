@@ -19,6 +19,7 @@ set ignorecase
 set smartcase
 set incsearch
 set hlsearch
+set number
 syntax on
 imap ii <Esc>
 
