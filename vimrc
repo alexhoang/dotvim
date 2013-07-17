@@ -20,6 +20,8 @@ set smartcase
 set incsearch
 set hlsearch
 set number
+set statusline=%F
+set laststatus=2
 syntax on
 imap ii <Esc>
 
