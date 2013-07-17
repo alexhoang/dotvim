@@ -122,4 +122,6 @@ nnoremap <C-l> <C-W><C-L>
 nnoremap <C-h> <C-W><C-H>
 nnoremap <Space> @q
 
+"Syntax highlight html files"
+au BufRead *.html set filetype=htmlm4
 
